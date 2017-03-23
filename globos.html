@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>New HMTL document by NewJect</title>
+
+<style>
+    #lienzo{
+        margin: 0 auto;
+        background-color: green;
+        width: 1000px;
+        height: 500px;
+        background-image: url('lienzo.jpg');
+        position: relative;
+        background-size: cover;
+        overflow: hidden;
+    }
+    
+    img{
+        width: 100px;    
+        margin: 2em;
+        
+        
+    }
+    #globo{
+        position: absolute;
+        left: 0px;
+        bottom: -150px;
+    }
+    
+    #globo-uno{
+        position: absolute;
+        left: 150px;
+        bottom: -150px;
+    }
+    
+    #globo-dos{
+        position: absolute;
+        left: 300px;
+        bottom: -150px;
+    }
+    
+    #globo-tres{
+        position: absolute;
+        left: 500px;
+        bottom: -150px;
+    }
+    
+    #globo-cuatro{
+        position: absolute;
+        left: 700px;
+        bottom: -150px;
+    }
+    
+    </style>    
+    
+</head>
+<body>
+
+<div id="lienzo">
+    <div class="globo" id="globo">
+        <img src='globos.png'>
+    </div>
+    
+    <div class="globo" id="globo-uno">
+        <img src='globos.png'>
+    </div>
+    
+    <div class="globo" id="globo-dos">
+        <img src='globos.png'>
+    </div>
+    
+    <div class="globo" id="globo-tres">
+        <img src='globos.png'>
+    </div>
+    
+    <div class="globo" id="globo-cuatro">
+        <img src='globos.png'>
+    </div>
+       
+</div>
+
+<button>Jugar</button>     
+<button id="volverJugar">Volver a Jugar</button>     
+    
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>    
+    
+<script src="globosjQuery.js"></script>    
+</body>
+</html>
